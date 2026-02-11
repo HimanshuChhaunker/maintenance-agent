@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash($env:PYTHONIOENCODING=\"utf-8\")",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(echo:*)",
+      "Bash(PYTHONIOENCODING=utf-8 streamlit run:*)"
+    ]
+  }
+}

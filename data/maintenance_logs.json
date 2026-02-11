@@ -1,0 +1,2115 @@
+[
+  {
+    "log_id": "ML-2024-0017",
+    "date": "2024-01-11",
+    "equipment_id": "TRK-446",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Hydraulic pump internal seal failure",
+    "resolution": "Rebuilt hydraulic pump with new seal kit",
+    "parts_replaced": [
+      "Pump seal kit",
+      "Hydraulic fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 8.3,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 30 days to verify repair integrity.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0035",
+    "date": "2024-01-13",
+    "equipment_id": "AV-328",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Worn clutch plates generating excess heat",
+    "resolution": "Overhauled transmission with new clutch plates and cooler flush",
+    "parts_replaced": [
+      "Clutch plate set",
+      "Transmission cooler",
+      "Fluid",
+      "Filter",
+      "Gasket kit"
+    ],
+    "repair_time_hours": 6.7,
+    "engineer_notes": "Parts sourced from emergency stock. Replenishment order required.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0042",
+    "date": "2024-01-13",
+    "equipment_id": "AV-250",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Intermittent total electrical failure",
+    "symptoms": [
+      "All electrical systems cut out momentarily",
+      "Dashboard lights flicker",
+      "Engine stalls and restarts"
+    ],
+    "diagnostic_steps": [
+      "Inspect main battery cables and terminals",
+      "Check chassis ground straps",
+      "Inspect master battery disconnect switch",
+      "Test battery terminal voltage under load"
+    ],
+    "root_cause": "Corroded battery terminal causing intermittent connection",
+    "resolution": "Cleaned and replaced battery terminals and cables",
+    "parts_replaced": [
+      "Battery terminals",
+      "Battery cables",
+      "Terminal protector spray"
+    ],
+    "repair_time_hours": 2.0,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for electrical components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0032",
+    "date": "2024-01-22",
+    "equipment_id": "TRK-230",
+    "equipment_type": "Recovery Vehicle",
+    "fault_description": "Intermittent total electrical failure",
+    "symptoms": [
+      "All electrical systems cut out momentarily",
+      "Dashboard lights flicker",
+      "Engine stalls and restarts"
+    ],
+    "diagnostic_steps": [
+      "Inspect main battery cables and terminals",
+      "Check chassis ground straps",
+      "Inspect master battery disconnect switch",
+      "Test battery terminal voltage under load"
+    ],
+    "root_cause": "Chassis ground strap broken allowing floating ground",
+    "resolution": "Replaced chassis ground strap and cleaned mounting surfaces",
+    "parts_replaced": [
+      "Ground strap",
+      "Hardware",
+      "Contact cleaner"
+    ],
+    "repair_time_hours": 2.5,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 60 days to verify repair integrity.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0064",
+    "date": "2024-01-24",
+    "equipment_id": "TRK-380",
+    "equipment_type": "Fuel Tanker Truck",
+    "fault_description": "Transmission slipping between gears",
+    "symptoms": [
+      "RPM flare during gear changes",
+      "Delayed engagement when shifting",
+      "Transmission fault code stored in ECM"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition",
+      "Read transmission ECM fault codes",
+      "Perform stall speed test",
+      "Monitor shift solenoid operation",
+      "Inspect torque converter lock-up"
+    ],
+    "root_cause": "Worn clutch pack friction material",
+    "resolution": "Overhauled transmission with new clutch packs",
+    "parts_replaced": [
+      "Clutch pack set",
+      "Transmission filter",
+      "Transmission fluid",
+      "Gasket kit"
+    ],
+    "repair_time_hours": 13.7,
+    "engineer_notes": "Repair time extended due to limited access in engine bay. Suggest improved tooling for future jobs.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0030",
+    "date": "2024-01-27",
+    "equipment_id": "AV-357",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "No drive in forward or reverse",
+    "symptoms": [
+      "Engine runs normally but vehicle does not move",
+      "No engagement felt when selecting gear",
+      "Transmission fluid discoloured or has metallic particles"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition for metal debris",
+      "Perform line pressure test",
+      "Inspect torque converter",
+      "Check park/neutral safety switch",
+      "Inspect drive shafts and transfer case"
+    ],
+    "root_cause": "Torque converter hub failure",
+    "resolution": "Replaced torque converter assembly",
+    "parts_replaced": [
+      "Torque converter",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 18.9,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 3 weeks before being logged.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0015",
+    "date": "2024-02-05",
+    "equipment_id": "AV-935",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Hydraulic pump internal seal failure",
+    "resolution": "Rebuilt hydraulic pump with new seal kit",
+    "parts_replaced": [
+      "Pump seal kit",
+      "Hydraulic fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 4.2,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for hydraulic components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0021",
+    "date": "2024-02-08",
+    "equipment_id": "AV-995",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Transmission cooler core failure",
+    "resolution": "Replaced transmission cooler and flushed lines",
+    "parts_replaced": [
+      "Transmission cooler",
+      "Transmission fluid",
+      "Hose fittings"
+    ],
+    "repair_time_hours": 15.3,
+    "engineer_notes": "This fault pattern is consistent with contaminated fluid. Recommend full system flush at next service window.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0019",
+    "date": "2024-02-19",
+    "equipment_id": "AV-196",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Vehicle speed sensor failure",
+    "symptoms": [
+      "Speedometer not reading",
+      "Transmission shift pattern erratic",
+      "ABS warning light illuminated"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM and ABS module",
+      "Inspect speed sensor and tone ring",
+      "Measure sensor output signal with oscilloscope",
+      "Check wiring continuity to ECM"
+    ],
+    "root_cause": "Speed sensor internal failure",
+    "resolution": "Replaced speed sensor and cleared fault codes",
+    "parts_replaced": [
+      "Speed sensor",
+      "O-ring",
+      "Connector"
+    ],
+    "repair_time_hours": 2.3,
+    "engineer_notes": "Vehicle returned to operational status. Full function test completed satisfactorily.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0029",
+    "date": "2024-02-24",
+    "equipment_id": "AV-218",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Excessive black smoke from exhaust",
+    "symptoms": [
+      "Visible black smoke at idle and under load",
+      "Reduced fuel economy",
+      "Rough engine idle"
+    ],
+    "diagnostic_steps": [
+      "Inspect air filter condition",
+      "Check fuel injector spray pattern",
+      "Measure turbocharger boost pressure",
+      "Analyse exhaust gas composition"
+    ],
+    "root_cause": "Turbocharger wastegate malfunction",
+    "resolution": "Replaced turbocharger wastegate actuator",
+    "parts_replaced": [
+      "Wastegate actuator",
+      "Turbo gasket set"
+    ],
+    "repair_time_hours": 5.3,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 3 weeks before being logged.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0020",
+    "date": "2024-02-25",
+    "equipment_id": "AV-919",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Transmission cooler lines kinked or restricted",
+    "resolution": "Replaced transmission cooler lines",
+    "parts_replaced": [
+      "Cooler lines",
+      "Transmission fluid",
+      "Clamps"
+    ],
+    "repair_time_hours": 6.7,
+    "engineer_notes": "This fault pattern is consistent with contaminated fluid. Recommend full system flush at next service window.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0012",
+    "date": "2024-02-28",
+    "equipment_id": "TRK-796",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Lighting circuit failure",
+    "symptoms": [
+      "Headlights or tail lights not functioning",
+      "Fuse blowing repeatedly",
+      "Melted wiring insulation visible"
+    ],
+    "diagnostic_steps": [
+      "Check fuse condition and rating",
+      "Inspect wiring harness for chafing or damage",
+      "Test light switch and relay operation",
+      "Measure circuit resistance"
+    ],
+    "root_cause": "Corroded bulkhead connector increasing resistance",
+    "resolution": "Replaced bulkhead connector and cleaned terminals",
+    "parts_replaced": [
+      "Bulkhead connector",
+      "Terminal pins",
+      "Dielectric grease"
+    ],
+    "repair_time_hours": 5.5,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 1 weeks before being logged.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0075",
+    "date": "2024-02-29",
+    "equipment_id": "AV-431",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Engine fails to start",
+    "symptoms": [
+      "Cranking but no ignition",
+      "No fuel pressure at rail",
+      "Starter motor engages but engine does not fire"
+    ],
+    "diagnostic_steps": [
+      "Check battery voltage and starter circuit",
+      "Verify fuel supply and pressure",
+      "Inspect glow plugs or ignition system",
+      "Check ECM for fault codes",
+      "Inspect fuel shut-off solenoid"
+    ],
+    "root_cause": "Crankshaft position sensor fault",
+    "resolution": "Replaced crankshaft position sensor",
+    "parts_replaced": [
+      "Crankshaft position sensor",
+      "Connector"
+    ],
+    "repair_time_hours": 8.9,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 90 days to verify repair integrity.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0039",
+    "date": "2024-03-06",
+    "equipment_id": "AV-667",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Hydraulic cylinder drift under load",
+    "symptoms": [
+      "Implement or turret slowly drops when stationary",
+      "Cylinder extends or retracts without input",
+      "Operator reports loss of position holding"
+    ],
+    "diagnostic_steps": [
+      "Inspect cylinder for external leaks",
+      "Perform cylinder drift-down test",
+      "Check holding valve operation",
+      "Inspect control valve spool for wear"
+    ],
+    "root_cause": "Worn cylinder piston seals allowing internal bypass",
+    "resolution": "Replaced cylinder piston seal kit",
+    "parts_replaced": [
+      "Piston seal kit",
+      "Wiper seal",
+      "Hydraulic fluid"
+    ],
+    "repair_time_hours": 6.5,
+    "engineer_notes": "Vehicle returned to operational status. Full function test completed satisfactorily.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0066",
+    "date": "2024-03-17",
+    "equipment_id": "TRK-255",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Relief valve stuck open",
+    "resolution": "Replaced relief valve assembly",
+    "parts_replaced": [
+      "Relief valve assembly",
+      "O-rings"
+    ],
+    "repair_time_hours": 3.8,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0070",
+    "date": "2024-03-17",
+    "equipment_id": "AV-763",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "ECM communication failure",
+    "symptoms": [
+      "Multiple warning lights on dashboard",
+      "Engine derate mode active",
+      "Diagnostic tool unable to communicate with ECM"
+    ],
+    "diagnostic_steps": [
+      "Check ECM power supply and ground circuits",
+      "Inspect CAN bus wiring and connectors",
+      "Test ECM communication on diagnostic port",
+      "Check for water ingress in ECM enclosure"
+    ],
+    "root_cause": "CAN bus wiring harness chafed causing short circuit",
+    "resolution": "Repaired CAN bus wiring harness and re-routed away from chafe points",
+    "parts_replaced": [
+      "Wiring harness section",
+      "CAN bus terminating resistors",
+      "Loom tape"
+    ],
+    "repair_time_hours": 8.6,
+    "engineer_notes": "Similar fault observed on Fuel Tanker Truck last month. Possible fleet-wide issue with this component.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0033",
+    "date": "2024-03-20",
+    "equipment_id": "TRK-735",
+    "equipment_type": "Recovery Vehicle",
+    "fault_description": "No drive in forward or reverse",
+    "symptoms": [
+      "Engine runs normally but vehicle does not move",
+      "No engagement felt when selecting gear",
+      "Transmission fluid discoloured or has metallic particles"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition for metal debris",
+      "Perform line pressure test",
+      "Inspect torque converter",
+      "Check park/neutral safety switch",
+      "Inspect drive shafts and transfer case"
+    ],
+    "root_cause": "Torque converter hub failure",
+    "resolution": "Replaced torque converter assembly",
+    "parts_replaced": [
+      "Torque converter",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 22.1,
+    "engineer_notes": "Repair conducted under field conditions. Recommend depot-level verification at next scheduled service.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0003",
+    "date": "2024-03-22",
+    "equipment_id": "TRK-877",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Lighting circuit failure",
+    "symptoms": [
+      "Headlights or tail lights not functioning",
+      "Fuse blowing repeatedly",
+      "Melted wiring insulation visible"
+    ],
+    "diagnostic_steps": [
+      "Check fuse condition and rating",
+      "Inspect wiring harness for chafing or damage",
+      "Test light switch and relay operation",
+      "Measure circuit resistance"
+    ],
+    "root_cause": "Corroded bulkhead connector increasing resistance",
+    "resolution": "Replaced bulkhead connector and cleaned terminals",
+    "parts_replaced": [
+      "Bulkhead connector",
+      "Terminal pins",
+      "Dielectric grease"
+    ],
+    "repair_time_hours": 3.7,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 3 weeks before being logged.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0074",
+    "date": "2024-03-23",
+    "equipment_id": "TRK-978",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Transmission cooler core failure",
+    "resolution": "Replaced transmission cooler and flushed lines",
+    "parts_replaced": [
+      "Transmission cooler",
+      "Transmission fluid",
+      "Hose fittings"
+    ],
+    "repair_time_hours": 9.8,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for transmission components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0073",
+    "date": "2024-04-02",
+    "equipment_id": "AV-384",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Hydraulic fluid overheating",
+    "symptoms": [
+      "Hydraulic fluid temperature gauge in red zone",
+      "Reduced system responsiveness",
+      "Burning smell from hydraulic reservoir area"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic oil cooler for blockage",
+      "Verify fan operation on oil cooler",
+      "Test hydraulic fluid viscosity",
+      "Inspect for internal bypass leaks"
+    ],
+    "root_cause": "Internal valve leakage causing fluid recirculation",
+    "resolution": "Replaced control valve block and flushed system",
+    "parts_replaced": [
+      "Control valve block",
+      "Hydraulic fluid",
+      "Filters"
+    ],
+    "repair_time_hours": 5.2,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for hydraulic components.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0053",
+    "date": "2024-04-12",
+    "equipment_id": "TRK-353",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Engine overheating during sustained load",
+    "symptoms": [
+      "Coolant temperature warning light active",
+      "Steam from engine bay",
+      "Loss of power under load"
+    ],
+    "diagnostic_steps": [
+      "Check coolant level and condition",
+      "Inspect thermostat operation",
+      "Pressure test cooling system",
+      "Inspect water pump impeller",
+      "Check radiator for blockages"
+    ],
+    "root_cause": "Thermostat stuck in closed position",
+    "resolution": "Replaced thermostat and flushed cooling system",
+    "parts_replaced": [
+      "Thermostat",
+      "Coolant",
+      "Gasket set"
+    ],
+    "repair_time_hours": 11.5,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0040",
+    "date": "2024-04-17",
+    "equipment_id": "AV-393",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Battery drain overnight",
+    "symptoms": [
+      "Vehicle fails to start after sitting overnight",
+      "Battery voltage below 11V after rest period",
+      "Multiple electrical systems resetting"
+    ],
+    "diagnostic_steps": [
+      "Perform parasitic draw test",
+      "Isolate circuits using fuse pull method",
+      "Inspect battery condition and load test",
+      "Check alternator diode condition"
+    ],
+    "root_cause": "Alternator diode leakage causing reverse current flow",
+    "resolution": "Replaced alternator assembly",
+    "parts_replaced": [
+      "Alternator assembly",
+      "Drive belt"
+    ],
+    "repair_time_hours": 5.1,
+    "engineer_notes": "Technician noted additional wear on adjacent components. Flagged for monitoring.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0047",
+    "date": "2024-04-19",
+    "equipment_id": "TRK-823",
+    "equipment_type": "Fuel Tanker Truck",
+    "fault_description": "No drive in forward or reverse",
+    "symptoms": [
+      "Engine runs normally but vehicle does not move",
+      "No engagement felt when selecting gear",
+      "Transmission fluid discoloured or has metallic particles"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition for metal debris",
+      "Perform line pressure test",
+      "Inspect torque converter",
+      "Check park/neutral safety switch",
+      "Inspect drive shafts and transfer case"
+    ],
+    "root_cause": "Torque converter hub failure",
+    "resolution": "Replaced torque converter assembly",
+    "parts_replaced": [
+      "Torque converter",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 15.8,
+    "engineer_notes": "Parts sourced from emergency stock. Replenishment order required.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0001",
+    "date": "2024-04-24",
+    "equipment_id": "AV-350",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Engine overheating during sustained load",
+    "symptoms": [
+      "Coolant temperature warning light active",
+      "Steam from engine bay",
+      "Loss of power under load"
+    ],
+    "diagnostic_steps": [
+      "Check coolant level and condition",
+      "Inspect thermostat operation",
+      "Pressure test cooling system",
+      "Inspect water pump impeller",
+      "Check radiator for blockages"
+    ],
+    "root_cause": "Water pump impeller failure",
+    "resolution": "Replaced water pump assembly",
+    "parts_replaced": [
+      "Water pump assembly",
+      "Coolant",
+      "Drive belt"
+    ],
+    "repair_time_hours": 12.8,
+    "engineer_notes": "Operational tempo has been high on this vehicle. Suggest reduced tasking until next major service.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0006",
+    "date": "2024-04-29",
+    "equipment_id": "TRK-975",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Transmission cooler lines kinked or restricted",
+    "resolution": "Replaced transmission cooler lines",
+    "parts_replaced": [
+      "Cooler lines",
+      "Transmission fluid",
+      "Clamps"
+    ],
+    "repair_time_hours": 9.3,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for transmission components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0018",
+    "date": "2024-05-01",
+    "equipment_id": "TRK-626",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Engine fails to start",
+    "symptoms": [
+      "Cranking but no ignition",
+      "No fuel pressure at rail",
+      "Starter motor engages but engine does not fire"
+    ],
+    "diagnostic_steps": [
+      "Check battery voltage and starter circuit",
+      "Verify fuel supply and pressure",
+      "Inspect glow plugs or ignition system",
+      "Check ECM for fault codes",
+      "Inspect fuel shut-off solenoid"
+    ],
+    "root_cause": "Glow plug circuit failure in cold conditions",
+    "resolution": "Replaced glow plug set and relay",
+    "parts_replaced": [
+      "Glow plug set",
+      "Glow plug relay"
+    ],
+    "repair_time_hours": 7.4,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0068",
+    "date": "2024-05-02",
+    "equipment_id": "TRK-260",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "No drive in forward or reverse",
+    "symptoms": [
+      "Engine runs normally but vehicle does not move",
+      "No engagement felt when selecting gear",
+      "Transmission fluid discoloured or has metallic particles"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition for metal debris",
+      "Perform line pressure test",
+      "Inspect torque converter",
+      "Check park/neutral safety switch",
+      "Inspect drive shafts and transfer case"
+    ],
+    "root_cause": "Torque converter hub failure",
+    "resolution": "Replaced torque converter assembly",
+    "parts_replaced": [
+      "Torque converter",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 17.7,
+    "engineer_notes": "Repair conducted under field conditions. Recommend depot-level verification at next scheduled service.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0060",
+    "date": "2024-05-03",
+    "equipment_id": "AV-187",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "ECM communication failure",
+    "symptoms": [
+      "Multiple warning lights on dashboard",
+      "Engine derate mode active",
+      "Diagnostic tool unable to communicate with ECM"
+    ],
+    "diagnostic_steps": [
+      "Check ECM power supply and ground circuits",
+      "Inspect CAN bus wiring and connectors",
+      "Test ECM communication on diagnostic port",
+      "Check for water ingress in ECM enclosure"
+    ],
+    "root_cause": "ECM internal board failure",
+    "resolution": "Replaced ECM unit and reprogrammed",
+    "parts_replaced": [
+      "ECM unit",
+      "Connector",
+      "Software licence"
+    ],
+    "repair_time_hours": 5.3,
+    "engineer_notes": "This fault pattern is consistent with contaminated fluid. Recommend full system flush at next service window.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0043",
+    "date": "2024-05-04",
+    "equipment_id": "AV-509",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Worn main bearings due to oil starvation",
+    "resolution": "Replaced main bearing set and oil pump",
+    "parts_replaced": [
+      "Main bearing set",
+      "Oil pump",
+      "Oil filter",
+      "Engine oil"
+    ],
+    "repair_time_hours": 19.9,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 30 days to verify repair integrity.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0028",
+    "date": "2024-05-05",
+    "equipment_id": "AV-170",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Transmission slipping between gears",
+    "symptoms": [
+      "RPM flare during gear changes",
+      "Delayed engagement when shifting",
+      "Transmission fault code stored in ECM"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition",
+      "Read transmission ECM fault codes",
+      "Perform stall speed test",
+      "Monitor shift solenoid operation",
+      "Inspect torque converter lock-up"
+    ],
+    "root_cause": "Shift solenoid valve failure",
+    "resolution": "Replaced shift solenoid pack",
+    "parts_replaced": [
+      "Shift solenoid pack",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 10.0,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for transmission components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0044",
+    "date": "2024-05-07",
+    "equipment_id": "TRK-670",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Starter motor failure",
+    "symptoms": [
+      "Clicking sound when turning ignition key",
+      "Starter motor engages but spins slowly",
+      "No response from starter circuit"
+    ],
+    "diagnostic_steps": [
+      "Test battery voltage under cranking load",
+      "Check starter motor solenoid operation",
+      "Inspect starter motor cables and connections",
+      "Bench test starter motor"
+    ],
+    "root_cause": "Starter motor solenoid contacts worn",
+    "resolution": "Replaced starter motor solenoid",
+    "parts_replaced": [
+      "Starter solenoid",
+      "Contact kit"
+    ],
+    "repair_time_hours": 2.4,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for electrical components.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0072",
+    "date": "2024-05-08",
+    "equipment_id": "AV-718",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Worn main bearings due to oil starvation",
+    "resolution": "Replaced main bearing set and oil pump",
+    "parts_replaced": [
+      "Main bearing set",
+      "Oil pump",
+      "Oil filter",
+      "Engine oil"
+    ],
+    "repair_time_hours": 13.1,
+    "engineer_notes": "Operational tempo has been high on this vehicle. Suggest reduced tasking until next major service.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0045",
+    "date": "2024-05-12",
+    "equipment_id": "AV-560",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Exhaust temperature sensor fault",
+    "symptoms": [
+      "Engine derate warning active",
+      "Fault code for exhaust temperature out of range",
+      "Reduced engine power"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM",
+      "Measure sensor resistance at connector",
+      "Inspect wiring from sensor to ECM",
+      "Compare sensor reading with infrared thermometer"
+    ],
+    "root_cause": "Exhaust temperature sensor element failure",
+    "resolution": "Replaced exhaust temperature sensor",
+    "parts_replaced": [
+      "Exhaust temperature sensor",
+      "Anti-seize compound"
+    ],
+    "repair_time_hours": 3.5,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 2 weeks before being logged.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0036",
+    "date": "2024-05-13",
+    "equipment_id": "TRK-218",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Lighting circuit failure",
+    "symptoms": [
+      "Headlights or tail lights not functioning",
+      "Fuse blowing repeatedly",
+      "Melted wiring insulation visible"
+    ],
+    "diagnostic_steps": [
+      "Check fuse condition and rating",
+      "Inspect wiring harness for chafing or damage",
+      "Test light switch and relay operation",
+      "Measure circuit resistance"
+    ],
+    "root_cause": "Wiring harness chafed through on chassis member causing short",
+    "resolution": "Repaired wiring harness and installed protective conduit",
+    "parts_replaced": [
+      "Wiring",
+      "Conduit",
+      "Fuses",
+      "Cable ties"
+    ],
+    "repair_time_hours": 4.3,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 4 weeks before being logged.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0013",
+    "date": "2024-05-14",
+    "equipment_id": "AV-103",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Intermittent total electrical failure",
+    "symptoms": [
+      "All electrical systems cut out momentarily",
+      "Dashboard lights flicker",
+      "Engine stalls and restarts"
+    ],
+    "diagnostic_steps": [
+      "Inspect main battery cables and terminals",
+      "Check chassis ground straps",
+      "Inspect master battery disconnect switch",
+      "Test battery terminal voltage under load"
+    ],
+    "root_cause": "Master battery switch internal contact wear",
+    "resolution": "Replaced master battery disconnect switch",
+    "parts_replaced": [
+      "Master disconnect switch",
+      "Mounting hardware"
+    ],
+    "repair_time_hours": 4.0,
+    "engineer_notes": "This fault pattern is consistent with contaminated fluid. Recommend full system flush at next service window.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0046",
+    "date": "2024-05-19",
+    "equipment_id": "AV-340",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Relief valve stuck open",
+    "resolution": "Replaced relief valve assembly",
+    "parts_replaced": [
+      "Relief valve assembly",
+      "O-rings"
+    ],
+    "repair_time_hours": 5.9,
+    "engineer_notes": "This fault pattern is consistent with contaminated fluid. Recommend full system flush at next service window.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0071",
+    "date": "2024-06-04",
+    "equipment_id": "AV-805",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Battery drain overnight",
+    "symptoms": [
+      "Vehicle fails to start after sitting overnight",
+      "Battery voltage below 11V after rest period",
+      "Multiple electrical systems resetting"
+    ],
+    "diagnostic_steps": [
+      "Perform parasitic draw test",
+      "Isolate circuits using fuse pull method",
+      "Inspect battery condition and load test",
+      "Check alternator diode condition"
+    ],
+    "root_cause": "Aftermarket radio installation with constant live draw",
+    "resolution": "Rewired aftermarket radio to switched ignition circuit",
+    "parts_replaced": [
+      "Wiring kit",
+      "Fuse holder",
+      "Crimp connectors"
+    ],
+    "repair_time_hours": 3.6,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 4 weeks before being logged.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0062",
+    "date": "2024-06-05",
+    "equipment_id": "AV-377",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Lighting circuit failure",
+    "symptoms": [
+      "Headlights or tail lights not functioning",
+      "Fuse blowing repeatedly",
+      "Melted wiring insulation visible"
+    ],
+    "diagnostic_steps": [
+      "Check fuse condition and rating",
+      "Inspect wiring harness for chafing or damage",
+      "Test light switch and relay operation",
+      "Measure circuit resistance"
+    ],
+    "root_cause": "Light switch failure causing overcurrent",
+    "resolution": "Replaced light switch assembly",
+    "parts_replaced": [
+      "Light switch assembly",
+      "Connector"
+    ],
+    "repair_time_hours": 2.9,
+    "engineer_notes": "Repair time extended due to limited access in engine bay. Suggest improved tooling for future jobs.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0016",
+    "date": "2024-06-08",
+    "equipment_id": "AV-830",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "No drive in forward or reverse",
+    "symptoms": [
+      "Engine runs normally but vehicle does not move",
+      "No engagement felt when selecting gear",
+      "Transmission fluid discoloured or has metallic particles"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition for metal debris",
+      "Perform line pressure test",
+      "Inspect torque converter",
+      "Check park/neutral safety switch",
+      "Inspect drive shafts and transfer case"
+    ],
+    "root_cause": "Transmission main shaft failure",
+    "resolution": "Replaced transmission assembly with rebuilt unit",
+    "parts_replaced": [
+      "Remanufactured transmission",
+      "Transmission fluid",
+      "Filter",
+      "Gasket kit"
+    ],
+    "repair_time_hours": 23.9,
+    "engineer_notes": "Operational tempo has been high on this vehicle. Suggest reduced tasking until next major service.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0038",
+    "date": "2024-06-09",
+    "equipment_id": "AV-738",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Hydraulic hose burst at crimped fitting",
+    "resolution": "Replaced failed hydraulic hose and refilled system",
+    "parts_replaced": [
+      "Hydraulic hose",
+      "Hydraulic fluid",
+      "Fittings"
+    ],
+    "repair_time_hours": 9.5,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 4 weeks before being logged.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0027",
+    "date": "2024-06-10",
+    "equipment_id": "AV-568",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Exhaust temperature sensor fault",
+    "symptoms": [
+      "Engine derate warning active",
+      "Fault code for exhaust temperature out of range",
+      "Reduced engine power"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM",
+      "Measure sensor resistance at connector",
+      "Inspect wiring from sensor to ECM",
+      "Compare sensor reading with infrared thermometer"
+    ],
+    "root_cause": "Exhaust temperature sensor element failure",
+    "resolution": "Replaced exhaust temperature sensor",
+    "parts_replaced": [
+      "Exhaust temperature sensor",
+      "Anti-seize compound"
+    ],
+    "repair_time_hours": 1.0,
+    "engineer_notes": "Technician noted additional wear on adjacent components. Flagged for monitoring.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0014",
+    "date": "2024-06-14",
+    "equipment_id": "TRK-713",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Exhaust temperature sensor fault",
+    "symptoms": [
+      "Engine derate warning active",
+      "Fault code for exhaust temperature out of range",
+      "Reduced engine power"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM",
+      "Measure sensor resistance at connector",
+      "Inspect wiring from sensor to ECM",
+      "Compare sensor reading with infrared thermometer"
+    ],
+    "root_cause": "Wiring harness damage from heat exposure",
+    "resolution": "Replaced wiring harness section with heat-resistant loom",
+    "parts_replaced": [
+      "Wiring harness",
+      "Heat-resistant sleeving",
+      "Connectors"
+    ],
+    "repair_time_hours": 1.1,
+    "engineer_notes": "Parts sourced from emergency stock. Replenishment order required.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0008",
+    "date": "2024-06-15",
+    "equipment_id": "AV-801",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Boost pressure sensor reading erratic",
+    "symptoms": [
+      "Intermittent power loss",
+      "ECM fault code for boost pressure signal out of range",
+      "Engine surging under load"
+    ],
+    "diagnostic_steps": [
+      "Read ECM fault codes and freeze frame data",
+      "Inspect boost pressure sensor and wiring",
+      "Check for boost leaks in intake system",
+      "Substitute known good sensor for comparison"
+    ],
+    "root_cause": "Boost pressure sensor diaphragm failure",
+    "resolution": "Replaced boost pressure sensor",
+    "parts_replaced": [
+      "Boost pressure sensor",
+      "O-ring"
+    ],
+    "repair_time_hours": 1.9,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 60 days to verify repair integrity.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0065",
+    "date": "2024-06-23",
+    "equipment_id": "AV-551",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Vehicle speed sensor failure",
+    "symptoms": [
+      "Speedometer not reading",
+      "Transmission shift pattern erratic",
+      "ABS warning light illuminated"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM and ABS module",
+      "Inspect speed sensor and tone ring",
+      "Measure sensor output signal with oscilloscope",
+      "Check wiring continuity to ECM"
+    ],
+    "root_cause": "Speed sensor air gap out of specification",
+    "resolution": "Adjusted speed sensor air gap to specification",
+    "parts_replaced": [
+      "Feeler gauges",
+      "Lock nut"
+    ],
+    "repair_time_hours": 3.9,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 1 weeks before being logged.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0004",
+    "date": "2024-06-25",
+    "equipment_id": "TRK-467",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Piston pin wear",
+    "resolution": "Replaced piston and pin assembly",
+    "parts_replaced": [
+      "Piston assembly",
+      "Piston rings",
+      "Gudgeon pin",
+      "Engine oil"
+    ],
+    "repair_time_hours": 15.2,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 90 days to verify repair integrity.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0061",
+    "date": "2024-07-26",
+    "equipment_id": "AV-326",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Engine overheating during sustained load",
+    "symptoms": [
+      "Coolant temperature warning light active",
+      "Steam from engine bay",
+      "Loss of power under load"
+    ],
+    "diagnostic_steps": [
+      "Check coolant level and condition",
+      "Inspect thermostat operation",
+      "Pressure test cooling system",
+      "Inspect water pump impeller",
+      "Check radiator for blockages"
+    ],
+    "root_cause": "Water pump impeller failure",
+    "resolution": "Replaced water pump assembly",
+    "parts_replaced": [
+      "Water pump assembly",
+      "Coolant",
+      "Drive belt"
+    ],
+    "repair_time_hours": 7.7,
+    "engineer_notes": "Technician noted additional wear on adjacent components. Flagged for monitoring.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0052",
+    "date": "2024-08-03",
+    "equipment_id": "AV-870",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Transmission cooler core failure",
+    "resolution": "Replaced transmission cooler and flushed lines",
+    "parts_replaced": [
+      "Transmission cooler",
+      "Transmission fluid",
+      "Hose fittings"
+    ],
+    "repair_time_hours": 15.7,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for transmission components.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0057",
+    "date": "2024-08-09",
+    "equipment_id": "AV-208",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Connecting rod bearing failure",
+    "resolution": "Replaced connecting rod bearings and polished crankshaft journals",
+    "parts_replaced": [
+      "Connecting rod bearings",
+      "Engine oil",
+      "Oil filter"
+    ],
+    "repair_time_hours": 19.6,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for engine components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0051",
+    "date": "2024-08-24",
+    "equipment_id": "TRK-987",
+    "equipment_type": "Fuel Tanker Truck",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Worn main bearings due to oil starvation",
+    "resolution": "Replaced main bearing set and oil pump",
+    "parts_replaced": [
+      "Main bearing set",
+      "Oil pump",
+      "Oil filter",
+      "Engine oil"
+    ],
+    "repair_time_hours": 12.6,
+    "engineer_notes": "Vehicle returned to operational status. Full function test completed satisfactorily.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0041",
+    "date": "2024-08-30",
+    "equipment_id": "AV-623",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Hydraulic cylinder drift under load",
+    "symptoms": [
+      "Implement or turret slowly drops when stationary",
+      "Cylinder extends or retracts without input",
+      "Operator reports loss of position holding"
+    ],
+    "diagnostic_steps": [
+      "Inspect cylinder for external leaks",
+      "Perform cylinder drift-down test",
+      "Check holding valve operation",
+      "Inspect control valve spool for wear"
+    ],
+    "root_cause": "Control valve spool scored from contamination",
+    "resolution": "Replaced control valve spool and flushed system",
+    "parts_replaced": [
+      "Valve spool",
+      "Hydraulic fluid",
+      "Filters"
+    ],
+    "repair_time_hours": 5.0,
+    "engineer_notes": "Similar fault observed on Mine-Resistant Ambush Protected Vehicle last month. Possible fleet-wide issue with this component.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0022",
+    "date": "2024-09-03",
+    "equipment_id": "TRK-597",
+    "equipment_type": "Recovery Vehicle",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Hydraulic pump internal seal failure",
+    "resolution": "Rebuilt hydraulic pump with new seal kit",
+    "parts_replaced": [
+      "Pump seal kit",
+      "Hydraulic fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 10.8,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 30 days to verify repair integrity.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0059",
+    "date": "2024-09-10",
+    "equipment_id": "AV-129",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Starter motor failure",
+    "symptoms": [
+      "Clicking sound when turning ignition key",
+      "Starter motor engages but spins slowly",
+      "No response from starter circuit"
+    ],
+    "diagnostic_steps": [
+      "Test battery voltage under cranking load",
+      "Check starter motor solenoid operation",
+      "Inspect starter motor cables and connections",
+      "Bench test starter motor"
+    ],
+    "root_cause": "Starter motor brushes worn below service limit",
+    "resolution": "Replaced starter motor assembly",
+    "parts_replaced": [
+      "Starter motor assembly",
+      "Mounting bolts"
+    ],
+    "repair_time_hours": 1.5,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0002",
+    "date": "2024-09-15",
+    "equipment_id": "AV-338",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Engine overheating during sustained load",
+    "symptoms": [
+      "Coolant temperature warning light active",
+      "Steam from engine bay",
+      "Loss of power under load"
+    ],
+    "diagnostic_steps": [
+      "Check coolant level and condition",
+      "Inspect thermostat operation",
+      "Pressure test cooling system",
+      "Inspect water pump impeller",
+      "Check radiator for blockages"
+    ],
+    "root_cause": "Thermostat stuck in closed position",
+    "resolution": "Replaced thermostat and flushed cooling system",
+    "parts_replaced": [
+      "Thermostat",
+      "Coolant",
+      "Gasket set"
+    ],
+    "repair_time_hours": 10.7,
+    "engineer_notes": "Repair time extended due to limited access in engine bay. Suggest improved tooling for future jobs.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0024",
+    "date": "2024-10-04",
+    "equipment_id": "TRK-693",
+    "equipment_type": "Heavy Utility Truck",
+    "fault_description": "Exhaust temperature sensor fault",
+    "symptoms": [
+      "Engine derate warning active",
+      "Fault code for exhaust temperature out of range",
+      "Reduced engine power"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM",
+      "Measure sensor resistance at connector",
+      "Inspect wiring from sensor to ECM",
+      "Compare sensor reading with infrared thermometer"
+    ],
+    "root_cause": "Exhaust temperature sensor element failure",
+    "resolution": "Replaced exhaust temperature sensor",
+    "parts_replaced": [
+      "Exhaust temperature sensor",
+      "Anti-seize compound"
+    ],
+    "repair_time_hours": 3.2,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 30 days to verify repair integrity.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0049",
+    "date": "2024-10-06",
+    "equipment_id": "TRK-651",
+    "equipment_type": "Recovery Vehicle",
+    "fault_description": "Transmission overheating",
+    "symptoms": [
+      "Transmission temperature warning active",
+      "Harsh or delayed shifts",
+      "Burning smell from transmission area"
+    ],
+    "diagnostic_steps": [
+      "Check transmission cooler lines for restriction",
+      "Inspect transmission cooler for damage",
+      "Check fluid level and condition",
+      "Monitor line pressure"
+    ],
+    "root_cause": "Worn clutch plates generating excess heat",
+    "resolution": "Overhauled transmission with new clutch plates and cooler flush",
+    "parts_replaced": [
+      "Clutch plate set",
+      "Transmission cooler",
+      "Fluid",
+      "Filter",
+      "Gasket kit"
+    ],
+    "repair_time_hours": 16.6,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for transmission components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0056",
+    "date": "2024-10-16",
+    "equipment_id": "TRK-915",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "No drive in forward or reverse",
+    "symptoms": [
+      "Engine runs normally but vehicle does not move",
+      "No engagement felt when selecting gear",
+      "Transmission fluid discoloured or has metallic particles"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition for metal debris",
+      "Perform line pressure test",
+      "Inspect torque converter",
+      "Check park/neutral safety switch",
+      "Inspect drive shafts and transfer case"
+    ],
+    "root_cause": "Torque converter hub failure",
+    "resolution": "Replaced torque converter assembly",
+    "parts_replaced": [
+      "Torque converter",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 14.9,
+    "engineer_notes": "Vehicle returned to operational status. Full function test completed satisfactorily.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0037",
+    "date": "2024-10-22",
+    "equipment_id": "TRK-494",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Vehicle speed sensor failure",
+    "symptoms": [
+      "Speedometer not reading",
+      "Transmission shift pattern erratic",
+      "ABS warning light illuminated"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM and ABS module",
+      "Inspect speed sensor and tone ring",
+      "Measure sensor output signal with oscilloscope",
+      "Check wiring continuity to ECM"
+    ],
+    "root_cause": "Speed sensor air gap out of specification",
+    "resolution": "Adjusted speed sensor air gap to specification",
+    "parts_replaced": [
+      "Feeler gauges",
+      "Lock nut"
+    ],
+    "repair_time_hours": 1.8,
+    "engineer_notes": "Repair time extended due to limited access in engine bay. Suggest improved tooling for future jobs.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0026",
+    "date": "2024-10-25",
+    "equipment_id": "TRK-773",
+    "equipment_type": "Recovery Vehicle",
+    "fault_description": "Battery drain overnight",
+    "symptoms": [
+      "Vehicle fails to start after sitting overnight",
+      "Battery voltage below 11V after rest period",
+      "Multiple electrical systems resetting"
+    ],
+    "diagnostic_steps": [
+      "Perform parasitic draw test",
+      "Isolate circuits using fuse pull method",
+      "Inspect battery condition and load test",
+      "Check alternator diode condition"
+    ],
+    "root_cause": "Aftermarket radio installation with constant live draw",
+    "resolution": "Rewired aftermarket radio to switched ignition circuit",
+    "parts_replaced": [
+      "Wiring kit",
+      "Fuse holder",
+      "Crimp connectors"
+    ],
+    "repair_time_hours": 4.1,
+    "engineer_notes": "Operator reported issue has been recurring for approximately 2 weeks before being logged.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0010",
+    "date": "2024-10-26",
+    "equipment_id": "AV-864",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Hydraulic cylinder drift under load",
+    "symptoms": [
+      "Implement or turret slowly drops when stationary",
+      "Cylinder extends or retracts without input",
+      "Operator reports loss of position holding"
+    ],
+    "diagnostic_steps": [
+      "Inspect cylinder for external leaks",
+      "Perform cylinder drift-down test",
+      "Check holding valve operation",
+      "Inspect control valve spool for wear"
+    ],
+    "root_cause": "Counterbalance valve failure",
+    "resolution": "Replaced counterbalance valve",
+    "parts_replaced": [
+      "Counterbalance valve",
+      "O-rings"
+    ],
+    "repair_time_hours": 9.4,
+    "engineer_notes": "Vehicle returned to operational status. Full function test completed satisfactorily.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0048",
+    "date": "2024-10-26",
+    "equipment_id": "TRK-888",
+    "equipment_type": "Recovery Vehicle",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Piston pin wear",
+    "resolution": "Replaced piston and pin assembly",
+    "parts_replaced": [
+      "Piston assembly",
+      "Piston rings",
+      "Gudgeon pin",
+      "Engine oil"
+    ],
+    "repair_time_hours": 12.2,
+    "engineer_notes": "Technician noted additional wear on adjacent components. Flagged for monitoring.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0063",
+    "date": "2024-10-28",
+    "equipment_id": "AV-383",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Relief valve stuck open",
+    "resolution": "Replaced relief valve assembly",
+    "parts_replaced": [
+      "Relief valve assembly",
+      "O-rings"
+    ],
+    "repair_time_hours": 11.8,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0067",
+    "date": "2024-10-28",
+    "equipment_id": "AV-980",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Vehicle speed sensor failure",
+    "symptoms": [
+      "Speedometer not reading",
+      "Transmission shift pattern erratic",
+      "ABS warning light illuminated"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM and ABS module",
+      "Inspect speed sensor and tone ring",
+      "Measure sensor output signal with oscilloscope",
+      "Check wiring continuity to ECM"
+    ],
+    "root_cause": "Tone ring damaged or missing teeth",
+    "resolution": "Replaced tone ring and speed sensor",
+    "parts_replaced": [
+      "Tone ring",
+      "Speed sensor",
+      "Retaining hardware"
+    ],
+    "repair_time_hours": 1.9,
+    "engineer_notes": "Technician noted additional wear on adjacent components. Flagged for monitoring.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0058",
+    "date": "2024-10-30",
+    "equipment_id": "AV-546",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Vehicle speed sensor failure",
+    "symptoms": [
+      "Speedometer not reading",
+      "Transmission shift pattern erratic",
+      "ABS warning light illuminated"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM and ABS module",
+      "Inspect speed sensor and tone ring",
+      "Measure sensor output signal with oscilloscope",
+      "Check wiring continuity to ECM"
+    ],
+    "root_cause": "Tone ring damaged or missing teeth",
+    "resolution": "Replaced tone ring and speed sensor",
+    "parts_replaced": [
+      "Tone ring",
+      "Speed sensor",
+      "Retaining hardware"
+    ],
+    "repair_time_hours": 2.0,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0025",
+    "date": "2024-10-31",
+    "equipment_id": "TRK-170",
+    "equipment_type": "Fuel Tanker Truck",
+    "fault_description": "Battery drain overnight",
+    "symptoms": [
+      "Vehicle fails to start after sitting overnight",
+      "Battery voltage below 11V after rest period",
+      "Multiple electrical systems resetting"
+    ],
+    "diagnostic_steps": [
+      "Perform parasitic draw test",
+      "Isolate circuits using fuse pull method",
+      "Inspect battery condition and load test",
+      "Check alternator diode condition"
+    ],
+    "root_cause": "Interior light relay stuck closed drawing current",
+    "resolution": "Replaced interior light relay and verified draw within spec",
+    "parts_replaced": [
+      "Relay",
+      "Fuse"
+    ],
+    "repair_time_hours": 4.7,
+    "engineer_notes": "Component showed signs of premature wear. Suggest reviewing maintenance interval for this system.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0054",
+    "date": "2024-11-06",
+    "equipment_id": "AV-271",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Boost pressure sensor reading erratic",
+    "symptoms": [
+      "Intermittent power loss",
+      "ECM fault code for boost pressure signal out of range",
+      "Engine surging under load"
+    ],
+    "diagnostic_steps": [
+      "Read ECM fault codes and freeze frame data",
+      "Inspect boost pressure sensor and wiring",
+      "Check for boost leaks in intake system",
+      "Substitute known good sensor for comparison"
+    ],
+    "root_cause": "5V reference circuit fault in ECM wiring",
+    "resolution": "Repaired 5V reference circuit wiring",
+    "parts_replaced": [
+      "Wiring repair kit",
+      "Solder",
+      "Heat shrink"
+    ],
+    "repair_time_hours": 4.9,
+    "engineer_notes": "Repair time extended due to limited access in engine bay. Suggest improved tooling for future jobs.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0005",
+    "date": "2024-11-17",
+    "equipment_id": "AV-949",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Hydraulic cylinder drift under load",
+    "symptoms": [
+      "Implement or turret slowly drops when stationary",
+      "Cylinder extends or retracts without input",
+      "Operator reports loss of position holding"
+    ],
+    "diagnostic_steps": [
+      "Inspect cylinder for external leaks",
+      "Perform cylinder drift-down test",
+      "Check holding valve operation",
+      "Inspect control valve spool for wear"
+    ],
+    "root_cause": "Control valve spool scored from contamination",
+    "resolution": "Replaced control valve spool and flushed system",
+    "parts_replaced": [
+      "Valve spool",
+      "Hydraulic fluid",
+      "Filters"
+    ],
+    "repair_time_hours": 9.3,
+    "engineer_notes": "Parts sourced from emergency stock. Replenishment order required.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0011",
+    "date": "2024-11-17",
+    "equipment_id": "TRK-256",
+    "equipment_type": "Cargo Transport Truck",
+    "fault_description": "Engine overheating during sustained load",
+    "symptoms": [
+      "Coolant temperature warning light active",
+      "Steam from engine bay",
+      "Loss of power under load"
+    ],
+    "diagnostic_steps": [
+      "Check coolant level and condition",
+      "Inspect thermostat operation",
+      "Pressure test cooling system",
+      "Inspect water pump impeller",
+      "Check radiator for blockages"
+    ],
+    "root_cause": "Water pump impeller failure",
+    "resolution": "Replaced water pump assembly",
+    "parts_replaced": [
+      "Water pump assembly",
+      "Coolant",
+      "Drive belt"
+    ],
+    "repair_time_hours": 13.5,
+    "engineer_notes": "Vehicle returned to operational status. Full function test completed satisfactorily.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0009",
+    "date": "2024-12-01",
+    "equipment_id": "AV-317",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Hydraulic cylinder drift under load",
+    "symptoms": [
+      "Implement or turret slowly drops when stationary",
+      "Cylinder extends or retracts without input",
+      "Operator reports loss of position holding"
+    ],
+    "diagnostic_steps": [
+      "Inspect cylinder for external leaks",
+      "Perform cylinder drift-down test",
+      "Check holding valve operation",
+      "Inspect control valve spool for wear"
+    ],
+    "root_cause": "Counterbalance valve failure",
+    "resolution": "Replaced counterbalance valve",
+    "parts_replaced": [
+      "Counterbalance valve",
+      "O-rings"
+    ],
+    "repair_time_hours": 6.4,
+    "engineer_notes": "Operational tempo has been high on this vehicle. Suggest reduced tasking until next major service.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0055",
+    "date": "2024-12-12",
+    "equipment_id": "AV-689",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Battery drain overnight",
+    "symptoms": [
+      "Vehicle fails to start after sitting overnight",
+      "Battery voltage below 11V after rest period",
+      "Multiple electrical systems resetting"
+    ],
+    "diagnostic_steps": [
+      "Perform parasitic draw test",
+      "Isolate circuits using fuse pull method",
+      "Inspect battery condition and load test",
+      "Check alternator diode condition"
+    ],
+    "root_cause": "Alternator diode leakage causing reverse current flow",
+    "resolution": "Replaced alternator assembly",
+    "parts_replaced": [
+      "Alternator assembly",
+      "Drive belt"
+    ],
+    "repair_time_hours": 3.6,
+    "engineer_notes": "Repair time extended due to limited access in engine bay. Suggest improved tooling for future jobs.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0050",
+    "date": "2024-12-13",
+    "equipment_id": "AV-784",
+    "equipment_type": "Mine-Resistant Ambush Protected Vehicle",
+    "fault_description": "Abnormal engine knocking noise",
+    "symptoms": [
+      "Metallic knocking from engine block",
+      "Knock intensity increases with RPM",
+      "Oil pressure fluctuation"
+    ],
+    "diagnostic_steps": [
+      "Perform oil pressure test",
+      "Use stethoscope to isolate knock location",
+      "Remove oil pan and inspect bearings",
+      "Check for piston slap"
+    ],
+    "root_cause": "Connecting rod bearing failure",
+    "resolution": "Replaced connecting rod bearings and polished crankshaft journals",
+    "parts_replaced": [
+      "Connecting rod bearings",
+      "Engine oil",
+      "Oil filter"
+    ],
+    "repair_time_hours": 20.7,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for engine components.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0007",
+    "date": "2024-12-15",
+    "equipment_id": "AV-818",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Exhaust temperature sensor fault",
+    "symptoms": [
+      "Engine derate warning active",
+      "Fault code for exhaust temperature out of range",
+      "Reduced engine power"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM",
+      "Measure sensor resistance at connector",
+      "Inspect wiring from sensor to ECM",
+      "Compare sensor reading with infrared thermometer"
+    ],
+    "root_cause": "Connector corrosion at sensor plug",
+    "resolution": "Replaced connector and applied thermal protection",
+    "parts_replaced": [
+      "Connector assembly",
+      "Thermal wrap",
+      "Cable ties"
+    ],
+    "repair_time_hours": 1.2,
+    "engineer_notes": "Operational tempo has been high on this vehicle. Suggest reduced tasking until next major service.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0023",
+    "date": "2024-12-22",
+    "equipment_id": "AV-533",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Vehicle speed sensor failure",
+    "symptoms": [
+      "Speedometer not reading",
+      "Transmission shift pattern erratic",
+      "ABS warning light illuminated"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM and ABS module",
+      "Inspect speed sensor and tone ring",
+      "Measure sensor output signal with oscilloscope",
+      "Check wiring continuity to ECM"
+    ],
+    "root_cause": "Speed sensor internal failure",
+    "resolution": "Replaced speed sensor and cleared fault codes",
+    "parts_replaced": [
+      "Speed sensor",
+      "O-ring",
+      "Connector"
+    ],
+    "repair_time_hours": 4.0,
+    "engineer_notes": "This fault pattern is consistent with contaminated fluid. Recommend full system flush at next service window.",
+    "severity": "medium"
+  },
+  {
+    "log_id": "ML-2024-0034",
+    "date": "2024-12-25",
+    "equipment_id": "AV-263",
+    "equipment_type": "Armoured Reconnaissance Vehicle",
+    "fault_description": "Exhaust temperature sensor fault",
+    "symptoms": [
+      "Engine derate warning active",
+      "Fault code for exhaust temperature out of range",
+      "Reduced engine power"
+    ],
+    "diagnostic_steps": [
+      "Read fault codes from ECM",
+      "Measure sensor resistance at connector",
+      "Inspect wiring from sensor to ECM",
+      "Compare sensor reading with infrared thermometer"
+    ],
+    "root_cause": "Exhaust temperature sensor element failure",
+    "resolution": "Replaced exhaust temperature sensor",
+    "parts_replaced": [
+      "Exhaust temperature sensor",
+      "Anti-seize compound"
+    ],
+    "repair_time_hours": 2.1,
+    "engineer_notes": "Recommend scheduling follow-up inspection in 60 days to verify repair integrity.",
+    "severity": "high"
+  },
+  {
+    "log_id": "ML-2024-0031",
+    "date": "2024-12-27",
+    "equipment_id": "AV-664",
+    "equipment_type": "Infantry Fighting Vehicle",
+    "fault_description": "Transmission slipping between gears",
+    "symptoms": [
+      "RPM flare during gear changes",
+      "Delayed engagement when shifting",
+      "Transmission fault code stored in ECM"
+    ],
+    "diagnostic_steps": [
+      "Check transmission fluid level and condition",
+      "Read transmission ECM fault codes",
+      "Perform stall speed test",
+      "Monitor shift solenoid operation",
+      "Inspect torque converter lock-up"
+    ],
+    "root_cause": "Shift solenoid valve failure",
+    "resolution": "Replaced shift solenoid pack",
+    "parts_replaced": [
+      "Shift solenoid pack",
+      "Transmission fluid",
+      "Filter"
+    ],
+    "repair_time_hours": 13.9,
+    "engineer_notes": "Similar fault observed on Fuel Tanker Truck last month. Possible fleet-wide issue with this component.",
+    "severity": "critical"
+  },
+  {
+    "log_id": "ML-2024-0069",
+    "date": "2024-12-27",
+    "equipment_id": "AV-395",
+    "equipment_type": "Armoured Personnel Carrier",
+    "fault_description": "Hydraulic system pressure loss",
+    "symptoms": [
+      "Slow response on hydraulic actuators",
+      "Hydraulic fluid visible on ground",
+      "Warning indicator for low hydraulic fluid"
+    ],
+    "diagnostic_steps": [
+      "Check hydraulic fluid reservoir level",
+      "Inspect all hose connections and fittings",
+      "Pressure test hydraulic circuits",
+      "Inspect hydraulic pump output",
+      "Check relief valve settings"
+    ],
+    "root_cause": "Relief valve stuck open",
+    "resolution": "Replaced relief valve assembly",
+    "parts_replaced": [
+      "Relief valve assembly",
+      "O-rings"
+    ],
+    "repair_time_hours": 9.3,
+    "engineer_notes": "Root cause linked to environmental exposure. Recommend improved protective measures for hydraulic components.",
+    "severity": "high"
+  }
+]
