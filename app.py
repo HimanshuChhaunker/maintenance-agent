@@ -229,6 +229,7 @@ st.markdown('<p class="subtitle">Multi-Agent RAG Pipeline &mdash; Real-Time Visu
 # Pipeline diagram placeholder
 # ---------------------------------------------------------------------------
 pipeline_placeholder = st.empty()
+callout_placeholder = st.empty()
 
 # Show initial pipeline state
 stage = st.session_state.stage
@@ -366,17 +367,26 @@ elif run_clicked and query.strip():
     with pipeline_placeholder.container():
         render_pipeline(done_up_to=2)
 
+    with callout_placeholder.container():
+        st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
+        st.info(
+            "\U0001f447 **Scroll down and expand the Agent 2 and Agent 3 panels** "
+            "to see the full diagnostic analysis and plain-language guidance."
+        )
+
     st.session_state.stage = "done"
-    st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
-    st.info(
-        "\U0001f447 **Scroll down and expand the Agent 2 and Agent 3 panels** "
-        "to see the full diagnostic analysis and plain-language guidance."
-    )
 
 # ---------------------------------------------------------------------------
 # Show previous results if page rerenders
 # ---------------------------------------------------------------------------
 elif st.session_state.stage == "done":
+    with callout_placeholder.container():
+        st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
+        st.info(
+            "\U0001f447 **Scroll down and expand the Agent 2 and Agent 3 panels** "
+            "to see the full diagnostic analysis and plain-language guidance."
+        )
+
     agent1_exp = st.expander("\U0001f50d Agent 1 \u2014 Retrieval", expanded=False)
     agent2_exp = st.expander("\U0001f9e0 Agent 2 \u2014 Knowledge Extraction", expanded=False)
     agent3_exp = st.expander("\U0001f4ac Agent 3 \u2014 Response Synthesis", expanded=True)
@@ -398,9 +408,3 @@ elif st.session_state.stage == "done":
     with agent3_exp:
         if st.session_state.response:
             safe_markdown(st.session_state.response)
-
-    st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
-    st.info(
-        "\U0001f447 **Scroll down and expand the Agent 2 and Agent 3 panels** "
-        "to see the full diagnostic analysis and plain-language guidance."
-    )

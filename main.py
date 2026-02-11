@@ -59,7 +59,7 @@ def get_collection():
         client = chromadb.PersistentClient(path=VECTORSTORE_PATH)
         try:
             _collection = client.get_collection(COLLECTION_NAME)
-        except ValueError:
+        except chromadb.errors.NotFoundError:
             print("Collection not found — running ingestion pipeline...")
             from ingest import ingest
             ingest()
