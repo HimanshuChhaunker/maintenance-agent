@@ -229,7 +229,6 @@ st.markdown('<p class="subtitle">Multi-Agent RAG Pipeline &mdash; Real-Time Visu
 # Pipeline diagram placeholder
 # ---------------------------------------------------------------------------
 pipeline_placeholder = st.empty()
-callout_placeholder = st.empty()
 
 # Show initial pipeline state
 stage = st.session_state.stage
@@ -256,6 +255,11 @@ with col_btn:
     run_clicked = st.button("\u25b6  Run Pipeline", type="primary", use_container_width=True)
 
 st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
+
+st.info(
+    "\U0001f447 After running a query, scroll down and expand the **Agent 2** and **Agent 3** panels "
+    "to see the full diagnostic analysis and plain-language guidance."
+)
 
 # ---------------------------------------------------------------------------
 # Run pipeline
@@ -367,12 +371,7 @@ elif run_clicked and query.strip():
     with pipeline_placeholder.container():
         render_pipeline(done_up_to=2)
 
-    with callout_placeholder.container():
-        st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
-        st.info(
-            "\U0001f447 **Scroll down and expand the Agent 2 and Agent 3 panels** "
-            "to see the full diagnostic analysis and plain-language guidance."
-        )
+    st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
 
     st.session_state.stage = "done"
 
@@ -380,12 +379,7 @@ elif run_clicked and query.strip():
 # Show previous results if page rerenders
 # ---------------------------------------------------------------------------
 elif st.session_state.stage == "done":
-    with callout_placeholder.container():
-        st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
-        st.info(
-            "\U0001f447 **Scroll down and expand the Agent 2 and Agent 3 panels** "
-            "to see the full diagnostic analysis and plain-language guidance."
-        )
+    st.success("Pipeline complete \u2014 all 3 agents finished successfully.")
 
     agent1_exp = st.expander("\U0001f50d Agent 1 \u2014 Retrieval", expanded=False)
     agent2_exp = st.expander("\U0001f9e0 Agent 2 \u2014 Knowledge Extraction", expanded=False)
